@@ -1,0 +1,87 @@
+.navbar-nav {
+	flex-direction: row;
+}
+		
+.nav-link {
+	padding-right: .5rem !important;
+	padding-left: .5rem !important;
+}
+
+.ml-auto .dropdown-menu {
+	left: auto !important;
+	right: 0px;
+}
+footer{
+	background-color: #dfbf9f; 
+	text-align: center; 
+	margin-top: 50px;
+}
+.caixa{
+    margin-top: 15px;
+}
+.img-caixa{
+	width: 95%;
+	margin: 15px 0 15px 0;
+}
+.img-carrinho{
+	width: 50%;
+}
+
+h1{
+	margin: 45px 0 25px 0; 
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	text-decoration: underline;
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	text-decoration: none;
+	text-decoration: underline;
+	text-decoration: none;
+	color: black;
+}
+
+.galeria div:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  background-color: #dfbf9f;  
+}
+
+.carrinho{
+	margin-top: 40px;
+}
+
+.menu-border{
+	margin: 100px 0 100px 0;
+	border-width: 3px;
+	border-style: solid;
+	border-color:black;
+	padding: 70px 70px 70px 70px;
+}
+
+.parallax {
+
+	margin-top: 25px;
+    /* The image used
+    background-image: url("https://gurudacidade.com.br/wp-content/uploads/2018/04/cafe-capuccino-s1.jpg"); */
+    background-image: url("../img/cafe-capuccino-s1.jpg");
+
+    /* Set a specific height */
+    min-height: 600px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cor{
+      background-color: #dfbf9f; 
+}
